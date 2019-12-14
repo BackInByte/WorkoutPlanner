@@ -87,7 +87,7 @@ public class Main2Activity extends AppCompatActivity
 
         this.start();
 
-        setTitle("Workout planner");
+        setTitle("Workout Planner");
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         //FloatingActionButton fab = findViewById(R.id.fab);

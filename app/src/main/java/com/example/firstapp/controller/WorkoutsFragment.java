@@ -11,6 +11,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 
 import com.example.firstapp.R;
 import com.example.firstapp.model.ViewModel;
@@ -61,6 +62,8 @@ public class WorkoutsFragment extends Fragment {
         if(chooseWorkoutToStart==1){
             AddWorkout.setVisibility(View.GONE);
             StartWorkout.setVisibility(View.GONE);
+            TextView textView = getView().findViewById(R.id.activity_exercices_Workout_text);
+            textView.setText("Click on a workout to start it");
         }
 
         linearLayout = getView().findViewById(R.id.activity_exercices_LinearLayout);

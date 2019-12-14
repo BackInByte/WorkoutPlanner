@@ -11,6 +11,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.firstapp.R;
@@ -74,6 +75,11 @@ public class ExercicesFragment extends Fragment {
 
         if(chooseExercices != 1){
             confirm.setVisibility(GONE);
+        }
+
+        else{
+            TextView textView = getView().findViewById(R.id.activity_exercices_exercicesList_text);
+            textView.setText("Click on exercices you would like to add to a new workout");
         }
 
         linearLayout = getView().findViewById(R.id.activity_exercices_LinearLayout);
