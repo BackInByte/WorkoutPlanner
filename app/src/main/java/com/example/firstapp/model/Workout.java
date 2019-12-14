@@ -21,8 +21,6 @@ public class Workout {
     }
     public void setExercicesList(List<Exercice> exercicesList){ this.exercicesList = exercicesList;}
 
-    //fonctions pour la lecture d'un Workout :
-
     public static Workout addWorkout1Exercices(List<Exercice> exercicelist){
 
         Exercice exercice1 = exercicelist.get(0);

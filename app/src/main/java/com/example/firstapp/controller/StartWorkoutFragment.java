@@ -34,7 +34,6 @@ public class StartWorkoutFragment extends Fragment {
     private WorkoutsList workoutsList;
 
 
-
     public StartWorkoutFragment() {
         // Required empty public constructor
     }

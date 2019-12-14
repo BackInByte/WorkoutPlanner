@@ -12,14 +12,12 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 import com.example.firstapp.R;
-import com.example.firstapp.model.User;
 
 public class MainActivity extends AppCompatActivity {
 
     private TextView mGreetingText;
     private EditText mNameInput;
     private Button mPlayButton;
-    private User mUser=null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
