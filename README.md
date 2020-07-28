@@ -1,7 +1,7 @@
 # Workout Planner
 
 ## Présentation de l’application :
-Workout Planner est une application programmée dans le cadre d’un projet d’étudiant de 4e année à l’école d’ingénieur ESIEA. L’application permet de créer des entraînements sportifs à partir de la banque d’exercices proposée. Elle offre également la possibilité de consulter les détails de ces exercices, comme les muscles travaillés. Les entraînements peuvent être « lancés », ce qui permet à l’utilisateur de visualiser un par un les exercices au fur et à mesure qu’il les réalise lors de son entraînement.
+Workout Planner est une application programmée dans le cadre d’un projet d’étudiant de 4e année. L’application permet de créer des entraînements sportifs à partir de la banque d’exercices proposée. Elle offre également la possibilité de consulter les détails de ces exercices, comme les muscles travaillés. Les entraînements peuvent être « lancés », ce qui permet à l’utilisateur de visualiser un par un les exercices au fur et à mesure qu’il les réalise lors de son entraînement.
 
 ## Fonctionnalités
 Proposer à l’utilisateur d’entrer son nom au démarrage de l’application
